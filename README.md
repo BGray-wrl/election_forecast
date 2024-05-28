@@ -19,4 +19,5 @@ Okay, disclaimer aside here's the forecast:
 The raw numbers of victories by state can be found [here](https://github.com/BGray-wrl/election_forecast_2024/blob/main/first_sim_n_10000.csv).
 
 My intuition on seeing these results is that my attempt at forcing p-values wasn’t strong enough. I think Biden’s wins are a little too dependent on high variances in states that just aren’t that likely to go his way but seem like they could due to a small polling sample size (and therefore higher variance). Then again, I’m going off of priors about Trump having a small advantage and IDK how much I should really trust them.
-![image](https://github.com/BGray-wrl/election_forecast/assets/120680905/13c06c64-2651-40cb-8e86-afb375954758)
+
+Again, this is just a fun project I wanted to put online. Please do not treat my forecast as anything more than that.
