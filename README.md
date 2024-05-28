@@ -11,7 +11,11 @@ This is a breakdown of my major thought process/steps in the model design:
 6)	Began simulations. In each sim, I added a random but systematic polling (percentage) error across all states to add some dependence to the various state outcomes.
 7)	Tallied up the electoral college vote for each simulation, calculated percentage outcomes for each state (and for the general) and plotted them on a state map. I think it’s a decent first attempt, but
 there’s a lot of ways to improve this (I took shortcuts galore), especially considering the code itself was all written in one binge (I got really into it). On top of that I don’t really know what I’m doing. If anyone has any thoughts, feel free to reach out!
-I fine-tuned the p-values a little bit -especially with the forcing function- but once I generated the first results I didn’t change anything except the number of simulations. 
+I fine-tuned the p-values a little bit -especially with the forcing function- but once I generated the first results I didn’t change anything except the number of simulations.
 
-My intuition on seeing these results is that despite my attempt at forcing p-values it wasn’t strong enough. I think Biden’s wins are a little too dependent on high variances in states that just aren’t that likely to go his way but seem like they could due to a small sample size (and therefore higher variance). Then again, I’m going off of priors about Trump having a small advantage and IDK how much I should really trust them.
+
+Okay, disclaimer aside here's the forecast:
+![forecast](https://github.com/BGray-wrl/election_forecast_2024/blob/main/Forecast.png)
+
+My intuition on seeing these results is that my attempt at forcing p-values wasn’t strong enough. I think Biden’s wins are a little too dependent on high variances in states that just aren’t that likely to go his way but seem like they could due to a small polling sample size (and therefore higher variance). Then again, I’m going off of priors about Trump having a small advantage and IDK how much I should really trust them.
 ![image](https://github.com/BGray-wrl/election_forecast/assets/120680905/13c06c64-2651-40cb-8e86-afb375954758)
